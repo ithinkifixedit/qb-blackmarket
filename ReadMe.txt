@@ -28,7 +28,7 @@ AddEventHandler('DoLongHudText', function(text, color, time)
 	SendNUIMessage({text = text, color = color or 1 or 2, time = time or 10000})
 end)
 
-If you would like to replace edit:
+If you would like to replace with your own notifications edit:
 
 Lines 20 and 91 in client,lua
 
