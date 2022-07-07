@@ -41,7 +41,7 @@ RegisterNetEvent('ithinkifixedit:shops:blackmarket')
 AddEventHandler('ithinkifixedit:shops:blackmarket', function()  
     QBCore.Functions.TriggerCallback('QBCore:HasItem', function(result)
         if result then
-            TriggerServerEvent("inventory:server:OpenInventory", "shop", "jail_slushy" , {
+            TriggerServerEvent("inventory:server:OpenInventory", "shop", "Market" , {
                 ['label'] = "Black Market",
                 ['items'] = {
                     [1] = {
